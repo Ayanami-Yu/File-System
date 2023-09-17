@@ -1,0 +1,13 @@
+package com.example.myFileSystem.entity;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class File {
+    private String filePath;
+    private Boolean isDir;
+}

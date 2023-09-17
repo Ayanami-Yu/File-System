@@ -1,0 +1,5 @@
+hadoop.name-node: hdfs://master1:9000
+hadoop.namespace: /user
+
+server:
+  port: 8081
